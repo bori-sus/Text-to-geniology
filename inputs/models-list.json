@@ -1,0 +1,12 @@
+[
+{
+"model_id": "tiny-ru-en-translate-01",
+"provider": "Local-LM",
+"size_mb": 50,
+"quantization": "int8",
+"price_rub": 60,
+"download_url": "",
+"notes": "Translation-ready, small"
+}
+]
+
