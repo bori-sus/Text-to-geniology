@@ -1,0 +1,16 @@
+{
+"nodes": [
+{"id": "Иван_Петрович", "name": "Иван Петрович"},
+{"id": "Алексей", "name": "Алексей"},
+{"id": "Мария", "name": "Мария"},
+{"id": "Наталья", "name": "Наталья"},
+{"id": "Ксения", "name": "Ксения"}
+],
+"edges": [
+{"source": "Иван_Петрович", "target": "Алексей", "relation": "parent_of"},
+{"source": "Иван_Петрович", "target": "Мария", "relation": "parent_of"},
+{"source": "Наталья", "target": "Алексей", "relation": "spouse_of"},
+{"source": "Алексей", "target": "Ксения", "relation": "parent_of"},
+{"source": "Наталья", "target": "Ксения", "relation": "parent_of"}
+]
+}
